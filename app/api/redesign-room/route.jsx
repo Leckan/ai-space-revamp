@@ -24,10 +24,10 @@ export async function POST(req) {
             {
               input: {
                 image: imageUrl,
-                prompt: "A" + roomType + " with a " + designType +  " style interior " + additionalReq,
+                prompt: "A" + roomType + " with a " + designType +  " style " + additionalReq,
                 guidance_scale: 15,
                 negative_prompt: "lowres, watermark, banner, logo, watermark, contactinfo, text, deformed, blurry, blur, out of focus, out of frame, surreal, extra, ugly, upholstered walls, fabric walls, plush walls, mirror, mirrored, functional, realistic",
-                prompt_strength: 0.8,
+                prompt_strength: 0.5,
                 num_inference_steps: 50
               }
             }

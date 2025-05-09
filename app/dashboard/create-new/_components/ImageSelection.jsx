@@ -23,7 +23,7 @@ function ImageSelection({selectedImage}) {
                     <div className={`p-28 border rounded-xl border-dotted flex justify-center border-primary
                      bg-slate-200 cursor-pointer hover:shadow-lg ${file&& 'p-0 bg-white' }`}>
                         {!file ? <Image src={'/imageupload.png'} width={70} height={70} alt='image upload'></Image>
-                            : <Image src={URL.createObjectURL(file)} width={300} height={300}
+                            : <Image src={URL.createObjectURL(file)} width={500} height={500}
                                 className='w-auto h-auto object-cover' alt='Image upload'></Image>}
                     </div>
                 </label>

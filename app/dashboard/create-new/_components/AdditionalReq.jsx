@@ -5,7 +5,7 @@ function AdditionalReq({additionalRequirementInput}) {
   return (
     <div className='mt-5'>
       <label className='text-gray-400'> Add Additional Requirements (Optional)</label>
-      <Textarea className='mt-2' onChange={(e)=> additionalRequirementInput(e.target.value)} />
+      <Textarea className='mt-2' onChange={(e)=> additionalRequirementInput(e.target.value)} >Interior</Textarea>
 
     </div>
   )
